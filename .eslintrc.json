@@ -44,6 +44,15 @@
         "ts": "never",
         "tsx": "never"
       }
+    ],
+
+    "react/prop-types": "off",
+    "no-unused-expressions": "off",
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": [".svg"]
+      }
     ]
   },
   "settings": {
